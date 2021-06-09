@@ -1,0 +1,40 @@
+body {
+    background-color:black;
+}
+
+h1 {
+    color:black;
+    text-align: center;
+
+}
+p {
+font-family: Cambria, Cochin,Arial, Helvetica, sans-serif; /* letra arial, cambria y demas*/
+font-size: 80px;
+font-weight: 900; /* Tamaño de letra en negro*/
+font-style: italic; /* Tipo de letra  cursiva,normal etc.*/
+text-decoration: underline black; /* Agregar caracteristicas como subrayado y tachado*/
+text-transform:capitalize; /* Para Cambiar letras entre minusculas y mayusculas*/
+
+}
+
+div {
+height: 300px;
+width: 400px;
+background-image: url("../img/astronauta.jpg" );
+background-color: chocolate;
+margin-top: 20px;
+margin-left: 50px; /* Para separar de la izquierda*/
+
+padding: 20px;
+
+}
+
+.uno {
+    background-image: :url("../img/astronauta.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.dos {
+    background-color: cornflowerblue;
+}
