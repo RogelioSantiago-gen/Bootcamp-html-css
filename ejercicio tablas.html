@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas con html</title>
+</head>
+
+    <h1>Formularios y tablas</h1>
+
+    <table border="2">
+    
+
+        <tr>
+      
+          <th scope="row">Lunes</th>  <!-- La etiqueta "th" se utiliza para el encabezado de la tabla"-->
+          <th>Martes</th>
+          <th>Miercoles</th>
+          <th>Jueves</th>
+          <th>viernes</th>
+          <th>sabado</th>
+          <th>domingo</th>
+        </tr>
+      
+        <tr>
+      
+          <td>Soleado</td>
+          <td>Mayormente soleado</td>  <!-- La etiqueta "td" se utiliza para el contenido de la tabla"-->
+          <td rowspan="7">Parcialmente nublado</td>
+          <td>nubaldo</td>
+          <td>soleado</td>
+          <td>parcialmente nublado</td>
+          <td>soleado</td>
+          <td rowspan="8">lluvioso</td> 
+
+        </tr>
+  
+        
+        <!-- El atributo "rowapan" quita bordes y lo convierte en solo uno -->
+
+
+        <tr>
+            
+          <td>Soleado</td>
+          <td>Mayormente soleado</td>
+          <td>Parcialmente nublado</td>
+
+        </tr>
+      
+        <tr>
+            
+          <td>Soleado</td>
+          <td>Mayormente soleado</td>
+          <td>Parcialmente nublado</td>
+      
+        </tr>
+
+      </table>
+
+    <hr/>
+
+    <!-- <form action="">  Etiqueta para hacer formularios y mandar datos-->
+     <form action="" method="post">
+
+        <h3>Registrate</h3>
+
+        <p>
+            <label for="nombre"></label>Nombre:</label> <!-- la etiqueta label funciona para dar referencia al tipo de informacion que se va a proporcionar-->
+            <input type="text" name= Rogelio/>
+        </p>
+        
+        <p>
+         <label for="email">Correo electronico:</label>
+         <input type="text" name="email"/>
+
+        </p> 
+        
+      <!--   <p>
+
+        <label for="password">Contraseña:</label>
+        <input type="password" name="password"/>
+
+        </p>-->
+
+        
+        <p>
+
+            <label for="Cumpleaños">Cumpleaños:</label>
+            <input type="number" name="number"/>
+    
+        </p>
+    
+       <!-- <input type="submit" value="registar"-->
+        <button type="submit">Registrar</button>
+
+        <select name="meses" id="">
+
+            <option value="">Enero</option>
+            <option value="">Febrero</option>
+            <option value="">Marzo</option>
+            <option value="">Abril</option>
+
+        </select>
+
+
+
+        
+
+
+    </form>
+
+
+       
+
+
+
+
+
+
+
+
+</body>
+</html>
