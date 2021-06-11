@@ -1,0 +1,61 @@
+body {
+    color: black;
+}
+
+.caja {
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+
+.uno {
+    border-color: black;
+    border-style: solid;   
+    border-bottom-right-radius: 70%; 
+    background-color: gray;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+   
+.dos {
+    border-color: black;
+    border-style: solid; 
+    border-bottom-right-radius: 39%; 
+    background-color: gray;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+.tres {
+    border-color: black;
+    border-style: solid;
+    border-bottom-right-radius: 9em; 
+    background-color: gray;
+    margin-left: 40px;
+    margin-bottom: 40px;
+
+}
+
+.cuatro {
+    border-color: black;
+    border-style: solid;
+    border-radius: 40em 100em;
+    background-color: gray;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    
+    
+}
+
+.cinco {
+    width: 200px;
+     height: 200px;
+     border-radius: 50%;
+     border-style: solid;
+     background: gray;
+     margin-left: 40px;
+    margin-bottom: 40px;
+}
